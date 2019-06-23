@@ -1,4 +1,4 @@
-# SQLI-Lab_b0x
+# SQLI-Lab_b0x  (With Love from Team ICA)
 This repository contains sample SQL Injection vulnerable code which are not straight forward.
 
 # Setup database for the Lab
