@@ -1,10 +1,5 @@
 <?php 
-
-
-$conn = mysqli_connect("127.0.0.1","root","","indishell_lab");
-
-
-
+include('config.php');
 include('head.php');
 
 
@@ -60,7 +55,7 @@ else {
 if(isset($_POST['home']))
 {
 	
-	echo '<br><br><font size=5>This Lab is just to demonstrate how SQL Injection can be exploited to perform local file disclosure <br>if application if allowing user to download files on the basis of vulnerable SQL query';
+	echo '<br><br><font size=5>This code is vulnerable to error based SQL Injection in "order by" clause';
 	
 }
 
