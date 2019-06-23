@@ -58,8 +58,7 @@ else {
 if(isset($_POST['home']))
 {
 	
-	echo '<br><br><font size=5>This Lab is just to demonstrate how SQL Injection can be exploited to perform local file disclosure <br>if application if allowing user to download files on the basis of vulnerable SQL query';
-	
+	echo '<br><br><font size=5>This Lab is environment simulation of vulnerable code when application is not performing data escaping but appending one more single quote with user supplied single quote.';	
 }
 
 if(isset($_POST['show']))
