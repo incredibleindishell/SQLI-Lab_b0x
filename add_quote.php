@@ -1,10 +1,5 @@
 <?php 
-
-
-$conn = mysqli_connect("127.0.0.1","root","","indishell_lab");
-
-
-
+include('config.php');
 include('head.php');
 
 
